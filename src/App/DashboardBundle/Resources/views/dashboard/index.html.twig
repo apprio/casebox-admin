@@ -1,6 +1,6 @@
 {% extends('AppDashboardBundle::base.html.twig') %}
 
-{% block title %}Casebox Admin UI dashboard{% endblock %}
+{% block title %}ECMRS Admin UI dashboard{% endblock %}
 
 {% block body %}
 
@@ -10,7 +10,7 @@
 
     <hr>
 
-    <h4>Casebox cores</h4>
+    <h4>ECMRS cores</h4>
 
     <p class="text-muted">Click on core name to review core details.</p>
 
@@ -45,13 +45,13 @@
         </div>
 
         <ul>
-            <li><a href="{{ path('admin_core_add') }}">Add new Casebox core</a></li>
+            <li><a href="{{ path('admin_core_add') }}">Add new ECMRS core</a></li>
         </ul>
 
     {% else %}
             <div class="panel panel-default">
                 <div class="panel-body">
-                    No casebox core found. <a href="{{ path('admin_core_add') }}">Add Casebox core.</a>
+                    No ECMRS core found. <a href="{{ path('admin_core_add') }}">Add ECMRS core.</a>
                 </div>
             </div>
     {% endif %}

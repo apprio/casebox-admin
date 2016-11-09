@@ -1,18 +1,18 @@
 {% extends('AppDashboardBundle::empty.html.twig') %}
 
-{% block title %}Casebox master password{% endblock %}
+{% block title %}ECMRS master password{% endblock %}
 
 {% block body %}
 
     <p>
-        Before access Casebox Admin UI,
+        Before access ECMRS Admin UI,
         please provide master password and click on Submit button.
     </p>
 
     {% if not has_password %}
         <p>
             <span class="text-warning">Attention!</span> Please memorize provided master password.
-            If you will lose master password, you will not be able to access Casebox Admin UI.
+            If you will lose master password, you will not be able to access ECMRS Admin UI.
         </p>
 
     {% endif %}

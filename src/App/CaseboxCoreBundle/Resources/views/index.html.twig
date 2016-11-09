@@ -1,6 +1,6 @@
 {% extends('AppDashboardBundle::base.html.twig') %}
 
-{% block title %}Casebox core{% endblock %}
+{% block title %}ECMRS core{% endblock %}
 
 {% block body %}
     <p class="text-muted">Click on core name to review core details.</p>
@@ -38,7 +38,7 @@
     {% include 'AppDashboardBundle::auto-refresh.html.twig' %}
 
     <ul>
-        <li><a href="{{ path('admin_core_add') }}">Add new Casebox core</a></li>
+        <li><a href="{{ path('admin_core_add') }}">Add new ECMRS core</a></li>
         <li><a href="{{ path('admin') }}">Go back</a></li>
     </ul>
 {% endblock %}
