@@ -23,7 +23,7 @@ class MessageService
     const PASSPHRASE_REALOD             = 'In order to apply software and security configurations, please run <code>vagrant reload</code> command in console.';
     const PASSPHRASE_NOT_MATCH          = 'Provided passphrases doesn\'t match.';
     const CRYPTFS_UNABLE_TO_MOUNT       = 'Unable to mount encrypted folders. Please double check provided passphrase.';
-    const CRYPTFS_PLEASE_WAIT           = 'Prepare encrypted folders. It takes around <b>10-20</b> seconds. Please be patient, you will be redirected to Casebox admin UI dashboard automatically.';
+    const CRYPTFS_PLEASE_WAIT           = 'Prepare encrypted folders. It takes around <b>10-20</b> seconds. Please be patient, you will be redirected to ECMRS admin UI dashboard automatically.';
     // Service
     const SERVICE_NOT_FOUND             = 'Service not found.';
     const SERVICE_RESTARTED             = '\'%s\' service has been restarted.';
@@ -31,8 +31,8 @@ class MessageService
     const LOGS_NOT_FOUND                = 'No logs found.';
     const LOGS_VIEW                     = 'You can watch the execution progress on the <a href="/admin/logs">logs page</a>.';
     // Core
-    const CORE_ADD                      = 'Casebox core will be created in about %d minutes.';
-    const CORE_FIRST_TIME_ADD           = 'For first time Casebox core will be created in about %d minutes.';
+    const CORE_ADD                      = 'ECMRS core will be created in about %d minutes.';
+    const CORE_FIRST_TIME_ADD           = 'For first time ECMRS core will be created in about %d minutes.';
     const CORE_ADD_FAIL                 = 'Sorry, you can\'t create \'%s\' environment from Admin UI.';
     // Share
     const REQUEST_SUCCESS               = 'Request successfully send.';

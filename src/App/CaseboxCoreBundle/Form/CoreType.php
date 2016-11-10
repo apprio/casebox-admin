@@ -29,7 +29,7 @@ class CoreType extends AbstractType
                 'required' => true,
                 'attr' => [
                     'class' => 'form-group form-control',
-                    'placeholder' => 'Provide casebox core name.',
+                    'placeholder' => 'Provide ECMRS core name.',
                 ],
             ]
         );

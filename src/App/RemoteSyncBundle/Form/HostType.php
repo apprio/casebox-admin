@@ -51,7 +51,7 @@ class HostType extends AbstractType
             'environment',
             TextType::class,
             [
-                'label' => 'Casebox environment',
+                'label' => 'Environment',
                 'required' => true,
                 'attr' => [
                     'class' => 'form-group form-control',
