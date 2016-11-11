@@ -64,7 +64,7 @@ class CoreType extends AbstractType
             'rootPassword',
             PasswordType::class,
             [
-                'label' => 'Casebox root password',
+                'label' => 'Root/admin password',
                 'required' => true,
                 'attr' => [
                     'class' => 'form-group form-control',
