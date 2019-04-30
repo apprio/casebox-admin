@@ -22,7 +22,8 @@ class AppKernel extends Kernel
             new Symfony\Bundle\DebugBundle\DebugBundle(),
             new Sensio\Bundle\DistributionBundle\SensioDistributionBundle(),
             new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle(),
-            // new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle(),
+            new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle(), //may not be needed
+            new Symfony\Bundle\WebServerBundle\WebServerBundle(),
 
             // Custom
             new App\DashboardBundle\AppDashboardBundle(),
